@@ -147,7 +147,7 @@ export function Home() {
             </AnimatedSection>
             <AnimatedSection direction="right" className="md:col-span-1 order-first md:order-last">
               <img
-                src="/NT11.jpg"
+                src="/bovers(36).jpg"
                 alt="Storage facility at night"
                 className="w-full shadow-xl hidden md:block"
               />
@@ -155,7 +155,7 @@ export function Home() {
           </div>
           <AnimatedSection direction="up" className="mt-8 md:hidden">
             <img
-              src="/NT11.jpg"
+              src="/bovers(36).jpg"
               alt="Storage facility at night"
               className="w-full shadow-xl"
             />
