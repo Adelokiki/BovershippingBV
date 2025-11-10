@@ -116,7 +116,7 @@ export function Shipping() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <AnimatedSection direction="left">
-              <ParallaxImage src="/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png" alt="Road Truck Transportation" />
+              <ParallaxImage src="/bovers (26).png" alt="Road Truck Transportation" />
             </AnimatedSection>
 
             <AnimatedSection direction="right">
@@ -136,7 +136,7 @@ export function Shipping() {
 
       {/* Road Trucks Details Section with Animated Background */}
       <section className="py-20 bg-gradient-to-r from-[#2a3f4d]/95 to-[#1e2d38]/95 relative overflow-hidden group">
-        <div className="absolute inset-0 bg-[url('/fleet.jpg')] bg-cover bg-center opacity-20 transition-transform duration-1000 group-hover:scale-110"></div>
+        <div className="absolute inset-0 bg-[url('/bovers (9) copy copy copy copy copy.jpg')] bg-cover bg-center opacity-20 transition-transform duration-1000 group-hover:scale-110"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#1e4a66]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection direction="up">
@@ -197,7 +197,7 @@ export function Shipping() {
             </AnimatedSection>
 
             <AnimatedSection direction="right" className="order-1 md:order-2">
-              <ParallaxImage src="/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png" alt="Railway Transportation" />
+              <ParallaxImage src="/488937eb-f641-43db-af11-7d14215a31ab.png" alt="Railway Transportation" />
             </AnimatedSection>
           </div>
         </div>
