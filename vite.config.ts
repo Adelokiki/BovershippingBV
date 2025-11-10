@@ -1,0 +1,2 @@
+
+    include: ['react', 'react-dom'],
