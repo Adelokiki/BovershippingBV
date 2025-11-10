@@ -102,7 +102,7 @@ export function Services() {
             <AnimatedSection direction="right">
               <img
                 src="/bovers (4) copy copy.jpg"
-                alt="Industrial facility at night"
+                alt="Storage facility at night"
                 className="w-full shadow-xl"
               />
             </AnimatedSection>
