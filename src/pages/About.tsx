@@ -16,18 +16,6 @@ export function About() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection direction="up">
-            <img
-              src="/bovers (8) copy.jpg"
-              alt="Tank storage facility"
-              className="w-full shadow-xl"
-            />
-          </AnimatedSection>
-        </div>
-      </section>
-
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-16 items-start">
