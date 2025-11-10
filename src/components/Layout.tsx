@@ -33,7 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <nav className="bg-[#1e4a66] shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <Link to="/" className="flex items-center gap-2">
+            <Link to="/" className="flex items-center gap-1">
               <svg width="200" height="100" viewBox="0 0 160 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M80 15 L92 35 L80 55 L68 35 Z" fill="#00bcd4" />
                 <path d="M80 55 L92 35 L104 50 L92 70 Z" fill="#0097a7" />
