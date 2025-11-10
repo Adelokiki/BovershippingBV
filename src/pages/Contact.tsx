@@ -11,7 +11,11 @@ export function Contact() {
   return (
     <>
       <section className="relative h-[400px] overflow-hidden group">
-        <div className="absolute inset-0 bg-[url('/bovers (8) copy copy copy copy copy copy.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
+        <img
+          src="/bovers (8).jpg"
+          alt="Storage Tanks"
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1e4a66]/90 to-[#2a5a76]/90"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <h1 className="text-4xl mb-4 animate-fade-in-down">Contact Us</h1>
