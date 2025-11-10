@@ -5,7 +5,7 @@ export function About() {
   return (
     <>
       <section className="relative h-[400px] bg-gradient-to-r from-[#1e4a66] to-[#2a5a76] overflow-hidden group">
-        <div className="absolute inset-0 bg-[url('/bovers (8) copy.jpg')] bg-cover bg-center opacity-30 transition-transform duration-700 group-hover:scale-110"></div>
+        <div className="absolute inset-0 bg-[url('/bovers (8) copy copy copy copy.jpg')] bg-cover bg-center opacity-30 transition-transform duration-700 group-hover:scale-110"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <h1 className="text-4xl mb-4 animate-fade-in-down">About Us</h1>
           <div className="flex items-center gap-2 text-base animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
