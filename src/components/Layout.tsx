@@ -34,13 +34,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link to="/" className="flex items-center">
-              <svg width="100" height="80" viewBox="0 0 80 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M40 10 L45 25 L40 40 L35 25 Z" fill="#00bcd4" />
-                <path d="M40 40 L45 25 L50 35 L45 50 Z" fill="#0097a7" />
-                <path d="M40 40 L35 25 L30 35 L35 50 Z" fill="#0097a7" />
-                <circle cx="40" cy="25" r="3" fill="white" />
+              <svg width="140" height="80" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60 10 L68 25 L60 40 L52 25 Z" fill="#00bcd4" />
+                <path d="M60 40 L68 25 L76 35 L68 50 Z" fill="#0097a7" />
+                <path d="M60 40 L52 25 L44 35 L52 50 Z" fill="#0097a7" />
+                <circle cx="60" cy="25" r="4" fill="white" />
               </svg>
-              <div className="ml-3">
+              <div className="ml-4">
                 <div className="text-white text-xl font-semibold">BoVer Shipping B.V.</div>
               </div>
             </Link>
