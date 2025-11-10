@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { SEO } from '../components/SEO';
 
 export function Terminals() {
   const terminals = [
@@ -132,6 +133,13 @@ export function Terminals() {
 
   return (
     <>
+      <SEO
+        title="Our Terminals"
+        description="BoVer Shipping B.V. operates tank terminals globally in major ports including Houston, Rotterdam, Singapore, Fujairah, and more. Comprehensive terminal network for petroleum storage."
+        keywords="tank terminals, port terminals, Houston terminal, Rotterdam terminal, Singapore terminal, Fujairah terminal, global terminals, petroleum terminals"
+        ogImage="https://bovershipbv.nl/bovers(36).jpg"
+        url="https://bovershipbv.nl/terminals"
+      />
       <section className="relative h-[400px] bg-gradient-to-r from-[#1e4a66] to-[#2a5a76] overflow-hidden group">
         <div className="absolute inset-0 bg-[url('/fleet-header.jpg')] bg-cover bg-center opacity-30 transition-transform duration-700 group-hover:scale-110"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">

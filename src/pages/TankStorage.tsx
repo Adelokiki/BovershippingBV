@@ -1,9 +1,17 @@
 import { AnimatedSection } from '../components/AnimatedSection';
 import { AnimatedLine } from '../components/AnimatedLine';
+import { SEO } from '../components/SEO';
 
 export function TankStorage() {
   return (
     <>
+      <SEO
+        title="Tank Storage"
+        description="Professional tank storage facilities for petroleum, chemicals, and renewable energy products. Innovative storage solutions with continuous monitoring and control."
+        keywords="tank storage, petroleum storage facilities, chemical tank storage, renewable energy storage, oil tank terminal, storage capacity"
+        ogImage="https://bovershipbv.nl/about111 copy.jpg"
+        url="https://bovershipbv.nl/tank-storage"
+      />
       <section className="relative h-[400px] bg-gradient-to-r from-[#1e4a66] to-[#2a5a76] overflow-hidden group">
         <div className="absolute inset-0 bg-[url('/fleet-header.jpg')] bg-cover bg-center opacity-30 transition-transform duration-700 group-hover:scale-110"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">

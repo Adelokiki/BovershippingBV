@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight, Users, CheckCircle, Award } from 'lucide-rea
 import { CountUpNumber } from '../components/CountUpNumber';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { AnimatedLine } from '../components/AnimatedLine';
+import { SEO } from '../components/SEO';
 
 export function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -39,6 +40,13 @@ export function Home() {
 
   return (
     <>
+      <SEO
+        title="Tank Storage & Shipping Logistics"
+        description="BoVer Shipping B.V. operates tank terminals globally for oils, chemicals, and gases. Leading provider of tank storage and shipping logistics solutions in major ports worldwide."
+        keywords="tank storage, petroleum storage, shipping logistics, oil storage, chemical storage, tank terminals, Rotterdam port, Houston port, Jurong port, oil terminal"
+        ogImage="https://bovershipbv.nl/bovers(36).jpg"
+        url="https://bovershipbv.nl/"
+      />
       <section id="home" className="relative h-[500px] md:h-[calc(100vh-112px)]">
         <div className="relative h-full overflow-hidden">
           {slides.map((slide, index) => (

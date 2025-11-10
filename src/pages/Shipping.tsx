@@ -2,6 +2,7 @@ import { Home } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { ParallaxImage } from '../components/ParallaxImage';
+import { SEO } from '../components/SEO';
 
 export function Shipping() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -20,6 +21,13 @@ export function Shipping() {
 
   return (
     <>
+      <SEO
+        title="Logistics Services"
+        description="Professional logistics and transportation services by BoVer Shipping B.V. Multimodal connectivity with rail, truck, and barge facilities for efficient import and export."
+        keywords="logistics services, shipping transportation, multimodal logistics, cargo transport, petroleum logistics, oil transport, chemical transportation"
+        ogImage="https://bovershipbv.nl/logistics-header.jpg"
+        url="https://bovershipbv.nl/shipping"
+      />
       {/* Hero Section with Animated Background */}
       <section className="relative h-[400px] overflow-hidden group">
         <div className="absolute inset-0 bg-[url('/logistics-header.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>

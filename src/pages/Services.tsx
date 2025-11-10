@@ -1,10 +1,18 @@
 import { Link } from 'react-router-dom';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { AnimatedLine } from '../components/AnimatedLine';
+import { SEO } from '../components/SEO';
 
 export function Services() {
   return (
     <>
+      <SEO
+        title="Services"
+        description="Comprehensive tank storage, blending, heating, cleaning, and multimodal logistics services. 5.4 million CBM capacity for petroleum products worldwide."
+        keywords="tank storage services, petroleum blending, tank cleaning, heating services, multimodal logistics, oil storage capacity, chemical storage solutions"
+        ogImage="https://bovershipbv.nl/services-header.jpg"
+        url="https://bovershipbv.nl/services"
+      />
       <section className="relative h-[400px] bg-gradient-to-r from-[#1e4a66] to-[#2a5a76] overflow-hidden group">
         <div className="absolute inset-0 bg-[url('/services-header.jpg')] bg-cover bg-center opacity-30 transition-transform duration-700 group-hover:scale-110"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">

@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { SEO } from '../components/SEO';
 
 export function Contact() {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,6 +11,13 @@ export function Contact() {
 
   return (
     <>
+      <SEO
+        title="Contact Us"
+        description="Get in touch with BoVer Shipping B.V. for your storage needs. Located in Beuningen, Netherlands. Contact us for tank storage and logistics solutions."
+        keywords="contact BoVer Shipping, tank storage inquiries, petroleum storage contact, logistics contact, Beuningen Netherlands, storage facility contact"
+        ogImage="https://bovershipbv.nl/bovers(36).jpg"
+        url="https://bovershipbv.nl/contact"
+      />
       <section className="relative h-[400px] overflow-hidden group">
         <img
           src="/bovers (8).jpg"
