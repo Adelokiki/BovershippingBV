@@ -40,7 +40,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <path d="M80 55 L68 35 L56 50 L68 70 Z" fill="#0097a7" />
                 <circle cx="80" cy="35" r="5" fill="white" />
               </svg>
-              <div className="text-white text-2xl font-semibold -ml-2">BoVer Shipping B.V.</div>
+              <div className="text-white text-2xl font-semibold -ml-8">BoVer Shipping B.V.</div>
             </Link>
 
             <div className="hidden md:flex space-x-8">
