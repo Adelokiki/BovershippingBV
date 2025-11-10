@@ -12,7 +12,7 @@ export function Contact() {
     <>
       <section className="relative h-[400px] overflow-hidden group">
         <img
-          src="/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png"
+          src="/bovers (8).jpg"
           alt="Storage Tanks"
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
