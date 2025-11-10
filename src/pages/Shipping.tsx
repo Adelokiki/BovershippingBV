@@ -7,7 +7,7 @@ export function Shipping() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const shippingImages = [
-    '/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png'
+    '/bovers (4).png'
   ];
 
   useEffect(() => {
@@ -104,7 +104,7 @@ export function Shipping() {
             </AnimatedSection>
 
             <AnimatedSection direction="right" className="order-1 md:order-2">
-              <ParallaxImage src="/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png" alt="Oil & Gas Pipeline" />
+              <ParallaxImage src="/dff50bca-788c-43e4-8c12-10e2453a2665.png" alt="Oil & Gas Pipeline" />
             </AnimatedSection>
           </div>
         </div>
