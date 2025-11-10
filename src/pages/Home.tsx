@@ -10,12 +10,12 @@ export function Home() {
 
   const slides = [
     {
-      image: '/fleet.jpg',
+      image: '/bovers (9).jpg',
       title: 'WELCOME TO BOVER SHIPPING B.V.',
       description: 'OUR TERMINAL, BOVER SHIPPING B.V., OFFERS TANK STORAGE SERVICES FOR A RANGE OF PETROLEUM PRODUCTS.'
     },
     {
-      image: '/8.jpg',
+      image: '/bovers (2).jpg',
       title: 'TRUSTED AND RELIABLE',
       description: 'BoVer Shipping B.V. is your most trustworthy and dependable choice for the secure storage of your product.'
     }
