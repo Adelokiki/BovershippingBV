@@ -101,7 +101,7 @@ export function Services() {
             </AnimatedSection>
             <AnimatedSection direction="right">
               <img
-                src="/about45.jpg"
+                src="/bovers (4) copy copy.jpg"
                 alt="Industrial facility at night"
                 className="w-full shadow-xl"
               />
