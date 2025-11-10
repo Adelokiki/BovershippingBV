@@ -21,7 +21,7 @@ export function FujairahPort() {
               <div className="relative">
                 <div className="rounded-full overflow-hidden w-full max-w-md mx-auto aspect-square shadow-2xl">
                   <img
-                    src="/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png"
+                    src="/fujairah-header.png"
                     alt="Fujairah Port Terminal"
                     className="w-full h-full object-cover"
                   />
