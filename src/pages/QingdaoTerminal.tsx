@@ -7,7 +7,7 @@ export function QingdaoTerminal() {
   return (
     <>
       <section className="relative h-[400px] overflow-hidden group">
-        <div className="absolute inset-0 bg-[url('/fleet.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
+        <div className="absolute inset-0 bg-[url('/qingdao-header.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
         <div className="absolute inset-0 bg-[#1e4a66] bg-opacity-70"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <h1 className="text-5xl font-bold mb-6 animate-fade-in-down">Qingdao Terminal</h1>
@@ -21,7 +21,7 @@ export function QingdaoTerminal() {
               <div className="relative">
                 <div className="rounded-full overflow-hidden w-full max-w-md mx-auto aspect-square shadow-2xl">
                   <img
-                    src="/image copy copy copy copy copy copy copy.png"
+                    src="/qingdao-terminal.png"
                     alt="Qingdao Terminal"
                     className="w-full h-full object-cover"
                   />
