@@ -6,6 +6,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [terminalsDropdownOpen, setTerminalsDropdownOpen] = useState(false);
+  const [mobileTerminalsOpen, setMobileTerminalsOpen] = useState(false);
   const location = useLocation();
 
   const scrollToTop = () => {
@@ -183,18 +184,73 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Services
               </Link>
               <div>
-                <Link
-                  to="/terminals"
-                  className={`block px-3 py-2 font-bold ${isActive('/terminals') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'}`}
+                <button
+                  onClick={() => setMobileTerminalsOpen(!mobileTerminalsOpen)}
+                  className="w-full text-left px-3 py-2 font-bold text-white hover:bg-[#2a5a76] flex items-center justify-between"
                 >
-                  Terminals
-                </Link>
-                <Link
-                  to="/tank-storage"
-                  className={`block px-3 py-2 pl-8 font-bold ${isActive('/tank-storage') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'}`}
-                >
-                  - Tank Storage
-                </Link>
+                  Our Terminals
+                  <ChevronDown className={`h-4 w-4 transition-transform ${mobileTerminalsOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {mobileTerminalsOpen && (
+                  <div className="bg-[#16384e]">
+                    <Link
+                      to="/terminals/dos-bocas"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/dos-bocas') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Dos Bocas Terminal
+                    </Link>
+                    <Link
+                      to="/terminals/qingdao"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/qingdao') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Qingdao Terminal
+                    </Link>
+                    <Link
+                      to="/terminals/pengerang"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/pengerang') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Pengerang Terminal
+                    </Link>
+                    <Link
+                      to="/terminals/jurong"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/jurong') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Jurong Port
+                    </Link>
+                    <Link
+                      to="/terminals/fujairah"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/fujairah') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Fujairah Port
+                    </Link>
+                    <Link
+                      to="/terminals/rotterdam"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/rotterdam') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Port of Rotterdam
+                    </Link>
+                    <Link
+                      to="/terminals/ningbo"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/ningbo') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'} border-b border-[#2a5a76]`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Ningbo-Zhoushan Port
+                    </Link>
+                    <Link
+                      to="/terminals/houston"
+                      className={`block px-3 py-3 pl-6 text-sm ${isActive('/terminals/houston') ? 'text-[#00bcd4]' : 'text-white hover:bg-[#2a5a76]'}`}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Port of Houston
+                    </Link>
+                  </div>
+                )}
               </div>
               <Link
                 to="/shipping"
